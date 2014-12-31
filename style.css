@@ -23,10 +23,18 @@ header {
   z-index: 9999;
   height: 60vh;
   background-color: white;
-  border-bottom: 1px solid #c42026;
+  border-bottom: 2px solid #c42026;
   padding: 50px; }
   header:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 767px) {
+    header {
+      height: 90vh;
+      padding: 10%;
+      padding-top: 20%; }
+      header h2 {
+        font-size: 1.2em;
+        max-width: 100% !important; } }
   header h1 {
     text-align: center;
     font-size: 40px;
@@ -52,7 +60,7 @@ header {
     height: 50px;
     width: 200px;
     background-color: #e92429;
-    border: 1px solid #c42026;
+    border: 2px solid #c42026;
     color: white;
     border-radius: 5px;
     font-size: 1.2em;
@@ -84,18 +92,36 @@ body {
     float: left; }
     .container img:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 767px) {
+      .container img {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 19.43277%; }
+        .container img:last-child {
+          margin-right: 0; } }
   .container .info {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%;
     padding: 1.25em;
+    text-align: right;
     height: 50vh;
     color: white;
     background-color: #e92429; }
     .container .info:last-child {
       margin-right: 0; }
-    .container .info .time {
+    @media screen and (max-width: 767px) {
+      .container .info {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        text-align: left; }
+        .container .info:last-child {
+          margin-right: 0; } }
+    .container .info #time {
       font-family: Helvetica, Arial, sans-serif;
       font-size: 36px;
       margin-bottom: 0; }
@@ -103,15 +129,19 @@ body {
       font-family: "Source Sans Pro", Arial, sans-serif;
       font-style: normal;
       font-size: 18px;
-      max-width: 80%;
       color: rgba(255, 255, 255, 0.75); }
-    .container .info .sponsor {
+    .container .info #sponsor {
       margin-top: 50px;
-      font-family: Helvetica, Arial, sans-serif;
-      color: rgba(255, 255, 255, 0.6); }
-      .container .info .sponsor a {
-        color: rgba(255, 255, 255, 0.6);
+      font-family: "Source Sans Pro", Arial, sans-serif;
+      color: rgba(255, 255, 255, 0.75); }
+      .container .info #sponsor a {
+        color: #f5f5f5;
+        border-bottom: 1px solid #f5f5f5;
         text-decoration: none; }
+        .container .info #sponsor a:hover {
+          color: #ffffff;
+          border-bottom: 1px solid #ffffff;
+          text-decoration: none; }
   .container .past {
     float: left;
     display: block;
@@ -123,10 +153,26 @@ body {
     color: white; }
     .container .past:last-child {
       margin-right: 0; }
-    .container .past ul li {
+    @media screen and (max-width: 767px) {
+      .container .past {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%; }
+        .container .past:last-child {
+          margin-right: 0; } }
+    .container .past ul#list li {
       font-family: "Source Sans Pro", Arial, sans-serif;
-      line-height: 22px;
+      line-height: 1.4em;
       font-size: 18px;
       color: rgba(255, 255, 255, 0.75); }
+      .container .past ul#list li a {
+        color: #f5f5f5;
+        border-bottom: 1px solid #f5f5f5;
+        text-decoration: none; }
+        .container .past ul#list li a:hover {
+          color: #ffffff;
+          border-bottom: 1px solid #ffffff;
+          text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

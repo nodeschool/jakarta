@@ -7,3 +7,4 @@ Stay connected with the Javascript / NodeJS community
 
 1. [Meetup.com](http://www.meetup.com/JakartaJS)
 - [Twitter JakartaJS JS](https://twitter.com/jakartajs)
+- [Page Nodeschool Jakarta](http://nodeschool.io/jakarta)

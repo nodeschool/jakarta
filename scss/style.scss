@@ -12,10 +12,20 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	@include span-columns(12);
+	@include media($mobile){
+
+			height: 90vh;
+			padding: 10%;
+			padding-top: 20%;
+			h2 {
+				font-size: 1.2em;
+				max-width: 100% !important;
+			}
+	}
 	z-index: 9999;
 	height: 60vh;
 	background-color: white;
-	border-bottom: 1px solid #c42026;
+	border-bottom: 2px solid #c42026;
 	padding: 50px;
 	h1 {
 		text-align: center;
@@ -47,7 +57,7 @@ header {
 		height: 50px;
 		width: 200px;
 		background-color: #e92429;
-		border: 1px solid #c42026;
+		border: 2px solid #c42026;
 		color: white;
 		border-radius: 5px;
 		font-size: 1.2em;
@@ -74,16 +84,24 @@ body {
 	width: 100%;
 	img {
 		@include span-columns(1);
+		@include media($mobile){
+			@include span-columns(1 of 4);
+		}
 		position: absolute;
 		float: left;
 	}
 	.info {
 		@include span-columns(6);
 		@include pad(em(20));
+		@include media($mobile){
+			@include span-columns(4 of 4);
+			text-align: left;
+		}
+		text-align: right;
 		height: 50vh;
 		color: white;
 		background-color: #e92429;
-		.time {
+		#time {
 			font-family: $secondary-font;
 			font-size: 36px;
 			margin-bottom: 0;
@@ -93,18 +111,21 @@ body {
 			font-family: $primary-font;
 			font-style: normal;
 			font-size: 18px;
-			max-width: 80%;
 			color: rgba(255, 255, 255, 0.75);
 		}
-		.sponsor {
+		#sponsor {
 			margin-top: 50px;
-			font-family: $secondary-font;
-			color: rgba(255, 255, 255, 0.6);
+			font-family: $primary-font;
+			color: rgba(255, 255, 255, 0.75);
 			a {
-				
-				color: rgba(255, 255, 255, 0.6);
+				color: #f5f5f5;
+				border-bottom: 1px solid #f5f5f5;
 				text-decoration: none;
-				
+				&:hover {
+					color: #ffffff;
+					border-bottom: 1px solid #ffffff;
+					text-decoration: none;
+				}	
 			}
 		}
 	}
@@ -112,15 +133,28 @@ body {
 	.past {
 		@include span-columns(6);
 		@include pad(em(20));
+		@include media($mobile){
+			@include span-columns(4 of 4);
+		}
 		height: 50vh;
 		background-color: #e92429;
 		color: white;
-		ul {
+		ul#list {
 			li {
 				font-family: $primary-font;
-				line-height: 22px;
+				line-height: 1.4em;
 				font-size: 18px;
 				color: rgba(255, 255, 255, 0.75);
+				a {
+					color: #f5f5f5;
+					border-bottom: 1px solid #f5f5f5;
+					text-decoration: none;
+					&:hover {
+						color: #ffffff;
+						border-bottom: 1px solid #ffffff;
+						text-decoration: none;
+					}	
+				}
 			}
 		}
 	}
