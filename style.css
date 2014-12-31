@@ -1,0 +1,132 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", Arial, sans-serif; }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  z-index: 9999;
+  height: 60vh;
+  background-color: white;
+  border-bottom: 1px solid #c42026;
+  padding: 50px; }
+  header:last-child {
+    margin-right: 0; }
+  header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    text-transform: uppercase; }
+  header h2 {
+    max-width: 75%;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  header img {
+    height: 75px;
+    margin: 0 auto;
+    position: relative;
+    display: block; }
+  header a {
+    text-decoration: none; }
+  header h3 {
+    padding-top: 12px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: #e92429;
+    border: 1px solid #c42026;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 0 auto; }
+    header h3:hover {
+      background-color: #E2252A;
+      border: 1px solid #e92429; }
+
+body {
+  background-color: #e92429; }
+
+.container {
+  max-width: 76.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .container img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+    position: absolute;
+    float: left; }
+    .container img:last-child {
+      margin-right: 0; }
+  .container .info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding: 1.25em;
+    height: 50vh;
+    color: white;
+    background-color: #e92429; }
+    .container .info:last-child {
+      margin-right: 0; }
+    .container .info .time {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 36px;
+      margin-bottom: 0; }
+    .container .info address {
+      font-family: "Source Sans Pro", Arial, sans-serif;
+      font-style: normal;
+      font-size: 18px;
+      max-width: 80%;
+      color: rgba(255, 255, 255, 0.75); }
+    .container .info .sponsor {
+      margin-top: 50px;
+      font-family: Helvetica, Arial, sans-serif;
+      color: rgba(255, 255, 255, 0.6); }
+      .container .info .sponsor a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none; }
+  .container .past {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding: 1.25em;
+    height: 50vh;
+    background-color: #e92429;
+    color: white; }
+    .container .past:last-child {
+      margin-right: 0; }
+    .container .past ul li {
+      font-family: "Source Sans Pro", Arial, sans-serif;
+      line-height: 22px;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.75); }
+
+/*# sourceMappingURL=style.css.map */

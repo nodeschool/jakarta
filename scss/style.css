@@ -1,0 +1,143 @@
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body:before {
+  content: '';
+  display: inline-block;
+  background-image: -webkit-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+  background-image: linear-gradient(to left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 76.5em;
+  opacity: 0.1;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  pointer-events: none;
+  z-index: 9999; }
+  @media screen and (max-width: 767px) {
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, red 0, red 12.64237%, transparent 12.64237%, transparent 17.47153%, red 17.47153%, red 30.11389%, transparent 30.11389%, transparent 34.94305%, red 34.94305%, red 47.58542%, transparent 47.58542%, transparent 52.41458%, red 52.41458%, red 65.05695%, transparent 65.05695%, transparent 69.88611%, red 69.88611%, red 82.52847%, transparent 82.52847%, transparent 87.35763%, red 87.35763%, red 100.0%, transparent 100.0%);
+      background-image: -moz-linear-gradient(left, transparent 0, red 0, red 12.64237%, transparent 12.64237%, transparent 17.47153%, red 17.47153%, red 30.11389%, transparent 30.11389%, transparent 34.94305%, red 34.94305%, red 47.58542%, transparent 47.58542%, transparent 52.41458%, red 52.41458%, red 65.05695%, transparent 65.05695%, transparent 69.88611%, red 69.88611%, red 82.52847%, transparent 82.52847%, transparent 87.35763%, red 87.35763%, red 100.0%, transparent 100.0%);
+      background-image: -ms-linear-gradient(left, transparent 0, red 0, red 12.64237%, transparent 12.64237%, transparent 17.47153%, red 17.47153%, red 30.11389%, transparent 30.11389%, transparent 34.94305%, red 34.94305%, red 47.58542%, transparent 47.58542%, transparent 52.41458%, red 52.41458%, red 65.05695%, transparent 65.05695%, transparent 69.88611%, red 69.88611%, red 82.52847%, transparent 82.52847%, transparent 87.35763%, red 87.35763%, red 100.0%, transparent 100.0%);
+      background-image: -o-linear-gradient(left, transparent 0, red 0, red 12.64237%, transparent 12.64237%, transparent 17.47153%, red 17.47153%, red 30.11389%, transparent 30.11389%, transparent 34.94305%, red 34.94305%, red 47.58542%, transparent 47.58542%, transparent 52.41458%, red 52.41458%, red 65.05695%, transparent 65.05695%, transparent 69.88611%, red 69.88611%, red 82.52847%, transparent 82.52847%, transparent 87.35763%, red 87.35763%, red 100.0%, transparent 100.0%);
+      background-image: linear-gradient(to left, transparent 0, red 0, red 12.64237%, transparent 12.64237%, transparent 17.47153%, red 17.47153%, red 30.11389%, transparent 30.11389%, transparent 34.94305%, red 34.94305%, red 47.58542%, transparent 47.58542%, transparent 52.41458%, red 52.41458%, red 65.05695%, transparent 65.05695%, transparent 69.88611%, red 69.88611%, red 82.52847%, transparent 82.52847%, transparent 87.35763%, red 87.35763%, red 100.0%, transparent 100.0%); } }
+  @media screen and (min-width: 768px) {
+    body:before {
+      background-image: -webkit-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+      background-image: -moz-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+      background-image: -ms-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+      background-image: -o-linear-gradient(left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%);
+      background-image: linear-gradient(to left, transparent 0, red 0, red 6.17215%, transparent 6.17215%, transparent 8.5298%, red 8.5298%, red 14.70196%, transparent 14.70196%, transparent 17.05961%, red 17.05961%, red 23.23176%, transparent 23.23176%, transparent 25.58941%, red 25.58941%, red 31.76157%, transparent 31.76157%, transparent 34.11922%, red 34.11922%, red 40.29137%, transparent 40.29137%, transparent 42.64902%, red 42.64902%, red 48.82117%, transparent 48.82117%, transparent 51.17883%, red 51.17883%, red 57.35098%, transparent 57.35098%, transparent 59.70863%, red 59.70863%, red 65.88078%, transparent 65.88078%, transparent 68.23843%, red 68.23843%, red 74.41059%, transparent 74.41059%, transparent 76.76824%, red 76.76824%, red 82.94039%, transparent 82.94039%, transparent 85.29804%, red 85.29804%, red 91.4702%, transparent 91.4702%, transparent 93.82785%, red 93.82785%, red 100.0%, transparent 100.0%); } }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Sans Pro", Arial, sans-serif; }
+
+header {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  z-index: 9999;
+  height: 60vh;
+  background-color: white;
+  border-bottom: 1px solid #c42026;
+  padding: 50px; }
+  header:last-child {
+    margin-right: 0; }
+  header h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase; }
+  header h2 {
+    max-width: 75%;
+    text-align: center;
+    font-weight: 300;
+    margin: 0 auto;
+    margin-bottom: 30px; }
+  header img {
+    height: 75px;
+    margin: 0 auto;
+    position: relative;
+    display: block; }
+  header a {
+    text-decoration: none; }
+  header h3 {
+    padding-top: 12px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    background-color: #e92429;
+    border: 1px solid #c42026;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 0 auto; }
+    header h3:hover {
+      background-color: #E2252A;
+      border: 1px solid #e92429; }
+
+body {
+  background-color: #e92429; }
+
+.container {
+  max-width: 76.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; }
+  .container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .container img {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 6.17215%;
+    position: absolute;
+    float: left; }
+    .container img:last-child {
+      margin-right: 0; }
+  .container .info {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    height: 50vh;
+    background-color: #e92429; }
+    .container .info:last-child {
+      margin-right: 0; }
+  .container .past {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    padding: 1.25em;
+    height: 50vh;
+    background-color: #e92429;
+    color: white; }
+    .container .past:last-child {
+      margin-right: 0; }
+    .container .past ul li {
+      line-height: 22px;
+      font-size: 18px; }
+
+/*# sourceMappingURL=style.css.map */
