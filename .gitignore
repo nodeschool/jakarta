@@ -1,0 +1,11 @@
+# sass cache
+/.sass-cache
+
+# scss folder
+/scss
+
+# css map
+*.css.map
+
+# not used script
+script.js
