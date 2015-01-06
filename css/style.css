@@ -1,0 +1,176 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  color: #404040;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 800;
+}
+a {
+  color: #e82428;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #e74c3c;
+}
+a img:hover,
+a img:focus {
+  cursor: zoom-in;
+}
+blockquote {
+  color: #808080;
+  font-style: italic;
+}
+
+.intro-header {
+  background-image: url(../img/jakarta-skyline.jpg);
+  background-color: #808080;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 30px 0;
+}
+
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px 0;
+  color: #000000;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading,
+  .intro-header .post-heading,
+  .intro-header .page-heading {
+    margin-top: 15px;
+    padding: 75px 0 180px;
+  }
+}
+.intro-header .site-heading,
+.intro-header .page-heading {
+  text-align: center;
+}
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+  margin-top: 12%;
+  font-size: 50px;
+}
+.intro-header .site-heading .subheading,
+.intro-header .page-heading .subheading {
+  font-size: 24px;
+  line-height: 1.1,
+  display: block;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .site-heading h1,
+  .intro-header .page-heading h1 {
+    margin-top: 40%;
+    font-size: 80px;
+  }
+}
+.intro-header .post-heading h1 {
+  font-size: 35px;
+}
+.intro-header .post-heading .subheading,
+.intro-header .post-heading .meta {
+  line-height: 1.1;
+  display: block;
+}
+.intro-header .post-heading .subheading {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  margin: 10px 0 30px;
+  font-weight: 600;
+}
+.intro-header .post-heading .meta {
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+.intro-header .post-heading .meta a {
+  color: white;
+}
+@media only screen and (min-width: 768px) {
+  .intro-header .post-heading h1 {
+    font-size: 55px;
+  }
+  .intro-header .post-heading .subheading {
+    font-size: 30px;
+  }
+}
+
+section.main {
+  background-color: #ecf0f1;
+  padding: 40px 0;
+  color: #222;
+  text-align: center;
+}
+
+section.main h1 {
+  font-size: 60px;
+}
+
+section.feedback {
+  padding: 40px 0 50px;
+}
+
+section.feedback .h1 {
+  font-size: 40px;
+  margin: 10px 0 25px 0;
+}
+
+.main-section h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.btn {
+  color: #fff;
+  font-size: 30px;
+  border-width: 1px 1px 6px;
+  -moz-box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  border-style: solid;
+  border-color: #db0105;
+  background-color: #e82428;
+  padding: 20px 45px;
+  margin: 35px auto;
+}
+
+.btn:hover {
+  background-color: #e71519;
+  border-color: #db0105;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn:active,
+.btn:focus {
+  color: #fff;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
